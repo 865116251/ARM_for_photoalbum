@@ -45,7 +45,7 @@ int main()
   pthread_create(&tid,NULL,sideing,NULL);
   while (1)
   {
-    ts_x=-1;
+    ts_x=-1;  //初始化坐标
     sleep(0.5);
     if (Upper_Left)//  进入图库
       {
